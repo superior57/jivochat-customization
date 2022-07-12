@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en">
+	<head> 
+		<title>JivoChat Test Widget</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">  
+		
+		<script src="//code.jivosite.com/widget/EfcSHKFUwE" async></script>
+		
+		<link href="jivosite/jivosite.css" rel="stylesheet" />
+		<script src='jivosite/jivosite.js' type="text/javascript"></script>		
+		
+		<script>
+			(function() {
+				var widget_id = '8403';
+				var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+				s.src = '//codesand.jivosite.ru/script/widget/'+widget_id;
+				var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);
+			})();
+		</script>
+		
+	</head>
+	
+	<body>
+		<div style='width: 600px; margin: auto'>
+			<h2>Instructions for creating your own JivoChat design label</h2>
+			<p>If you do not like the default widget which was created by JivoChat, you can make your own. Let's assume that the address of your site is http://mysite.com. Instructions:
+			<ol>
+				<li><p>Copy the folder "jivosite", which is in the archive to the root directory of your site - http://mysite.com/jivosite
+				<li><p>Verify that the script source code is available at "http://mysite.com/jivosite/jivosite.js" 
+				<li><p>Add the following code to every page of your site between the &lt;head> and &lt;/head> tags:<br>
+				<textarea style='width: 400px; height: 50px'>
+<link href="/jivosite/jivosite.css" rel="stylesheet" />
+<script src='/jivosite/jivosite.js' type="text/javascript"></script>	
+				</textarea>
+				<li><p>Make sure that the site has already registered the base JivoChat code (you can find it in your account on the first page). The order of the scripts on your website is not important
+				<li><p>Replace the image tag in the directory "http://mysite.com/jivosite/images/" with the ones that you would like to see on the website. The Photoshop source file can be found in the archive.
+				<li><p>Change the CSS file height div to match the height of the images (the rows marked with comments)
+	
+			</ol>
+			
+			<p>The widget is now ready. The logic of the label is described in the code comments in the file jivosite.js. If you have any questions - please contact us at <a href='mailto:info@jivochat.com'> info@jivochat.com </a>, or go to the chat (chat on this page, by the way true - you can write to us: )
+		</div>
+
+		
+
+	</body>
+</html>
